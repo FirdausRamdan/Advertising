@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: #fff;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(0, 0, 50, 0.9), rgba(0, 0, 100, 0.9)), url('https://example.com/space-background.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: #0ff;
+    text-shadow: 0 0 20px #0ff;
+}
+
+.hero-content {
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #0ff;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #0ff;
+    background: rgba(0, 0, 50, 0.5);
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #0ff;
+    border: 2px solid #0ff;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #00a;
+    border-color: #00a;
+    color: #fff;
+}
