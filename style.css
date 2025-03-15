@@ -1,5 +1,5 @@
 body {
-    background-color: #000;
+    background: url('space1.jpg') no-repeat center center/cover;
     color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
 }
